@@ -193,3 +193,9 @@ ffuf -u https://target.com/FUZZ.php -w words.txt -mc 200,302
 ffuf -u https://target.com/FUZZ.zip -w words.txt -mc 200,302
 
 ```
+---
+
+## 📊 Methodology Overview
+![Bug Bounty Recon Workflow](./bugbounty.jpeg)
+
+*Happy Hunting! 🚀*
