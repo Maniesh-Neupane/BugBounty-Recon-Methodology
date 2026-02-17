@@ -210,7 +210,7 @@ To make this methodology easier to follow, I've included high-level workflows an
 ### 2. Advanced Attack Surface Mapping
 ![Advanced Recon Map](./advancedmethodology.jpeg)
 
-### 3. Step-by-Step Recon Checklists
+### 3. Step-by-Step  Checklists
 <p align="center">
   <img src="./checklist1.jpeg" width="45%" />
   <img src="./checklist2.jpeg" width="45%" />
