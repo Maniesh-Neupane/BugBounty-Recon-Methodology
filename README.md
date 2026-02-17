@@ -198,4 +198,26 @@ ffuf -u https://target.com/FUZZ.zip -w words.txt -mc 200,302
 ## 📊 Methodology Overview
 ![Bug Bounty Recon Workflow](./bugbounty.jpeg)
 
-*Happy Hunting! 🚀*
+---
+
+## 📊 Visual Assets & Checklists
+
+To make this methodology easier to follow, I've included high-level workflows and checklists.
+
+### 1. Methodology Overview
+![Recon Workflow](./bugbounty.jpeg)
+
+### 2. Advanced Attack Surface Mapping
+![Advanced Recon Map](./advancedmethodology.jpeg)
+
+### 3. Step-by-Step Recon Checklists
+<p align="center">
+  <img src="./checklist1.jpeg" width="45%" />
+  <img src="./checklist2.jpeg" width="45%" />
+</p>
+
+For More Visit "https://www.pentest-book.com/others/web-checklist"
+---
+<p align="center">
+  <b>Happy Hunting! 🚀</b>
+</p>
