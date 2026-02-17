@@ -90,6 +90,9 @@ nmap -sV -sC -iL allports.txt -oN nmap_details.txt
 
 # Targeted Naabu/Nmap automated combo
 naabu -list resolved.txt -c 50 -nmap-cli 'nmap -sV -sC' -o naabu_full.txt
+naabu -list subs.txt -top-ports 1000 -exclude-ports 80,443,21,22,25 -o top1000ports.txt
+naabu -list subs.txt -p - -exclude-ports 80,443,21,22,25 -o allports.txt
+
 
 ```
 
