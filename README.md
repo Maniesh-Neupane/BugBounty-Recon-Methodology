@@ -195,14 +195,12 @@ ffuf -u https://target.com/FUZZ.zip -w words.txt -mc 200,302
 ```
 ---
 
-## 📊 Methodology Overview
-![Bug Bounty Recon Workflow](./bugbounty.jpeg)
+
 
 ---
 
 ## 📊 Visual Assets & Checklists
 
-To make this methodology easier to follow, I've included high-level workflows and checklists.
 
 ### 1. Methodology Overview
 ![Recon Workflow](./bugbounty.jpeg)
