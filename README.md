@@ -87,6 +87,7 @@ Mapping services and identifying misconfigured Virtual Hosts.
 ```bash
 # Full Port Scan (excluding standard web ports for speed)
 naabu -list resolved.txt -p - -exclude-ports 80,443 -o allports.txt
+smap -iL targets.txt
 
 # Service Detection on discovered ports
 nmap -sV -sC -iL allports.txt -oN nmap_details.txt
