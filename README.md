@@ -133,6 +133,7 @@ httpx -list allsubs.txt -status-code -content-length -content-type -line-count -
 ```bash
 # CVEs, Misconfigs, and Information Exposures
 cat live_web.txt | nuclei -t cves/ -t exposures/ -t misconfiguration/ -severity critical,high,medium -o nuclei_results.txt
+nuclei -l live_subs.txt -ft -headless -tags xss,ssrf,rce
 
 # Subdomain Takeover Check
 subzy run --targets resolved.txt
