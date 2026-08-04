@@ -1,4 +1,4 @@
-# BugBounty-Recon-Methodology
+# Bug Bounty Methodology
 Bug Bounty Recon Methodology
 
 ## 🏗 Phase 1: Passive Intelligence & Scope Mapping
